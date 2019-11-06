@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/imgg16.jpeg");
+	//background: white;
+	background-repeat: repeat;
+    font-family: Arial;
+    padding: 5px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #ddd;
+	background-color: hsla(0, 0%, 90%, 0.7);
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+	background-color: #ddd;
+	background-color: hsla(0, 0%, 90%, 0.7);
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+	background-color: hsla(0, 0%, 90%, 0.5);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+}
+
+h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-arrow-left"></i> back</a>
+  <!--<a href="#"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>--> 
+  <a href="#"><i class="fa fa-fw fa-square"></i> Categories</a>
+</div>
+
+<div class="topnav">
+<a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/cart.html" style="float:right">
+<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/cart.jpg" alt="cart1.jpg" style="width:42px;height:42px;border:0;"></a>
+</div>
+
+<div class="header">
+  <h1>Catagories</h1>
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	<div class="newspaper">
+<h2>Vegetables And Fruits</h2>
+	<div>
+	  <h3>Vegetables<h3/>
+		<a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/wtveg.html">
+		<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/vegetables.jpg" alt="cart1.jpg" width="150" height="150"></a>
+	</div>
+    
+	<div>
+	  <h3>Fruits</h3>
+		<a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/wtveg.html">
+		<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/fruit.jpg"alt="cart1.jpg"  width="150" height="150"></a>
+ 	</div>
+	</div>
+	</div>
+   
+	<div class="card">
+	<div class="newspaper">
+      <div>
+	  <h3>Snacks<h3/>
+ 		<a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/junk.html">
+		<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/junk2.jpg" alt="cart1.jpg" width="150" height="150"></a>
+		</div>
+		<div>
+		<h3>Meat</h3>
+        <a href="#">
+		<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/non_veg.jpg"alt="cart1.jpg"  width="150" height="150"></a>
+		</div>
+	</div> 
+	</div>
+
+ <div class="card">
+ <div class="newspaper">
+      <div>
+	  <h3>Daily Needs<h3/>
+      <a href="#">
+	<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/gr.jpg" alt="cart1.jpg" width="150" height="150"></a>
+	</div>
+   
+	<div>
+	<h3>Dairy Products</h3>
+      <a href="#">
+	<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/dairy.jpg"alt="cart1.jpg"  width="150" height="150"></a>
+ 	</div>
+	</div> 
+	</div>
+ </div>
+ 
+ 
+ 
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>OFFERS</h2>
+      <!--<div class="fakeimg" style="height:300px;">Image</div>-->
+      <!--<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/offer_img.jpg" alt="cart1.jpg" width="250" height="300">
+      </img>-->
+	  <br/>
+	  <br/>
+      <a href="#"><p>20% off on meat</a><br/>
+	  <br><a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/wtveg.html">20% off on vegetables</a>
+	  <br/><br/><a href="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/junk.html">10% off on Snacks</a>
+	  <br/><br/><a href="#">5% off on Dairy Products</a>
+	  <br/><br/><a href="#">10% off on Daily needs</p></a>
+	  <br/>
+	  <br/>
+    </div>
+    </div>
+  </div>
+ 
+</body>
+</html>

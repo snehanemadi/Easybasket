@@ -1,0 +1,130 @@
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">Turn on the light</button>
+
+<img id="myImage" src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px">
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg'">Turn off the light</button>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">
+<img id="myImage" src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px"></button>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">
+<img src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px"></button>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">
+<img id="myImage" src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px"></button>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">
+<img id="myImage" src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px"></button>
+
+<button onclick="document.getElementById('myImage').src='C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/star.png'">
+<img id="myImage" src="C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/wtpro/sstar.jpg" style="width:50px"></button>
+
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+....................
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+/////////
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+body {
+	background-image: url("C:/Users/ACER/Desktop/WTech_notes/Web_tech_project/cart1.jpg");
+	//background: white;
+	background-repeat: repeat;
+    font-family: Arial;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class ="header">
+<h1>FEED BACK</h1>
+<h2 id ="i">please give your feedback</h2>
+</div>
+
+<div class="rating" style="align:center">
+<span style="height:20px;width:20px">☆</span><span style="height:20px;width:20px">☆</span><span style="height:20px;width:20px">☆</span><span style="height:20px;width:20px">☆</span><span style="height:20px;width:20px">☆</span>
+<br/>
+<br/>
+<button onclick="func()"><input type="submit" value="submit"></button>
+</div>
+<script>
+function func(){
+document.getElementById(i).innerHtml="Thanks for feedback!!";
+}
+</script>
+</body>
+</html>
